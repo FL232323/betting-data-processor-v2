@@ -1,7 +1,7 @@
 {
   "name": "betting-data-processor-v2-server",
   "version": "1.0.0",
-  "description": "Enhanced betting data processor server with MCP integration",
+  "description": "Enhanced betting data processor server",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -14,12 +14,11 @@
     "multer": "^1.4.5-lts.1",
     "sqlite3": "^5.1.6",
     "papaparse": "^5.4.1",
-    "@modelcontextprotocol/server-sqlite": "latest",
-    "@modelcontextprotocol/server-memory": "latest",
     "bcrypt": "^5.1.1",
     "jsonwebtoken": "^9.0.2",
     "cors": "^2.8.5",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "nodemon": "^3.0.2",
